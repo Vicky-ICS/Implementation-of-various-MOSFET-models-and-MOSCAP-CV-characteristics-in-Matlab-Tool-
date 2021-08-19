@@ -1,4 +1,5 @@
-# Implementation-of-various-MOSFET-models-and-MOSCAP-CV-characteristics-in-Matlab-Tool-
-Implemented Pao-Sah ,Brews and Piece-wise model for NMOS and PMOS transistor in MATLAB and did a qualitative comparision of all the models. 
-Analysed high frequency and low frequency CV characteristics of MOSCAP device in Matlab by varying various parameters like gate workfunction, oxide thickness and channel doping. 
-Modified the developed code to include effects of positive &amp; negative fixed charges and interface traps and analysed their effects on CV characteristics.
+A code to generate HFCV and LFCV curves for NMOS and PMOS capacitors. Input variables: Gate workfunction, oxide thickness, channel doping and type (NMOS or PMOS). 
+
+Generated CV curves for different MOS parameters .
+
+Another code to extract MOS capacitor parameters from the CV curve that I generate from the above code. 
